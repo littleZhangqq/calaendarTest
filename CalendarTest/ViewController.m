@@ -25,6 +25,7 @@ ProStrong CalendarView *calendar;
     
     [_calendar mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.bottom.mas_equalTo(self.view);
+        //这里不用设置高度，选择日期后_calendar的高度会自己变化，注意做好约束就行了。
     }];
 }
 
