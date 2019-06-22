@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6F39953418DA2BB1EB736C0 /* libPods-CalendarTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9EC6566ACBC5326DA22FAA /* libPods-CalendarTest.a */; };
+		F019767A22BCB2EE00878C5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F019767922BCB2EE00878C5E /* AppDelegate.m */; };
+		F019767D22BCB2EE00878C5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F019767C22BCB2EE00878C5E /* ViewController.m */; };
+		F019768022BCB2EE00878C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F019767E22BCB2EE00878C5E /* Main.storyboard */; };
+		F019768222BCB2F100878C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F019768122BCB2F100878C5E /* Assets.xcassets */; };
+		F019768522BCB2F100878C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F019768322BCB2F100878C5E /* LaunchScreen.storyboard */; };
+		F019768822BCB2F100878C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F019768722BCB2F100878C5E /* main.m */; };
+		F0B477ED22BDCE56007073C2 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B477E922BDCE56007073C2 /* CalendarView.m */; };
+		F0B477EE22BDCE56007073C2 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B477EC22BDCE56007073C2 /* DateUtil.m */; };
+		F0B4782122BDCF1D007073C2 /* UIView+ZZFLEX.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B477F122BDCF1D007073C2 /* UIView+ZZFLEX.m */; };
+		F0B4782222BDCF1D007073C2 /* ZZTextFieldChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B477F522BDCF1D007073C2 /* ZZTextFieldChainModel.m */; };
+		F0B4782322BDCF1D007073C2 /* ZZLabelChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B477F622BDCF1D007073C2 /* ZZLabelChainModel.m */; };
+		F0B4782422BDCF1D007073C2 /* ZZCollectionViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B477F822BDCF1D007073C2 /* ZZCollectionViewChainModel.m */; };
+		F0B4782522BDCF1D007073C2 /* ZZTableViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B477FD22BDCF1D007073C2 /* ZZTableViewChainModel.m */; };
+		F0B4782622BDCF1D007073C2 /* ZZBaseViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780122BDCF1D007073C2 /* ZZBaseViewChainModel.m */; };
+		F0B4782722BDCF1D007073C2 /* ZZButtonChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780322BDCF1D007073C2 /* ZZButtonChainModel.m */; };
+		F0B4782822BDCF1D007073C2 /* ZZScrollViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780522BDCF1D007073C2 /* ZZScrollViewChainModel.m */; };
+		F0B4782922BDCF1D007073C2 /* ZZImageViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780622BDCF1D007073C2 /* ZZImageViewChainModel.m */; };
+		F0B4782A22BDCF1D007073C2 /* ZZControlChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780722BDCF1D007073C2 /* ZZControlChainModel.m */; };
+		F0B4782B22BDCF1D007073C2 /* ZZTextViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780922BDCF1D007073C2 /* ZZTextViewChainModel.m */; };
+		F0B4782C22BDCF1D007073C2 /* ZZSwitchChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780A22BDCF1D007073C2 /* ZZSwitchChainModel.m */; };
+		F0B4782D22BDCF1D007073C2 /* ZZViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780B22BDCF1D007073C2 /* ZZViewChainModel.m */; };
+		F0B4782E22BDCF1D007073C2 /* UIButton+ZZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4780F22BDCF1D007073C2 /* UIButton+ZZExtension.m */; };
+		F0B4782F22BDCF1D007073C2 /* UIView+ZZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4781122BDCF1D007073C2 /* UIView+ZZFrame.m */; };
+		F0B4783022BDCF1D007073C2 /* UIView+ZZSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4781322BDCF1D007073C2 /* UIView+ZZSeparator.m */; };
+		F0B4783122BDCF1D007073C2 /* UIControl+ZZEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4781522BDCF1D007073C2 /* UIControl+ZZEvent.m */; };
+		F0B4783222BDCF1D007073C2 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4781722BDCF1D007073C2 /* UIView+ViewController.m */; };
+		F0B4783322BDCF1D007073C2 /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4781822BDCF1D007073C2 /* UIView+BlockGesture.m */; };
+		F0B4783422BDCF1D007073C2 /* UIView+MaskRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4781922BDCF1D007073C2 /* UIView+MaskRounded.m */; };
+		F0B4783522BDCF1D007073C2 /* UIView+ForbidEditMask.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4781D22BDCF1D007073C2 /* UIView+ForbidEditMask.m */; };
+		F0B4783622BDCF1D007073C2 /* UIView+ATExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4782022BDCF1D007073C2 /* UIView+ATExtension.m */; };
+		F0B4783922BDCF78007073C2 /* YLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B4783822BDCF78007073C2 /* YLUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D9EC6566ACBC5326DA22FAA /* libPods-CalendarTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalendarTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9AA3A1B9F0A504F16230B0 /* Pods-CalendarTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarTest.release.xcconfig"; path = "Target Support Files/Pods-CalendarTest/Pods-CalendarTest.release.xcconfig"; sourceTree = "<group>"; };
+		C1BD22C3C523581F392F32F0 /* Pods-CalendarTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarTest.debug.xcconfig"; path = "Target Support Files/Pods-CalendarTest/Pods-CalendarTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F019767522BCB2EE00878C5E /* CalendarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F019767822BCB2EE00878C5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F019767922BCB2EE00878C5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F019767B22BCB2EE00878C5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F019767C22BCB2EE00878C5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F019767F22BCB2EE00878C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F019768122BCB2F100878C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F019768422BCB2F100878C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F019768622BCB2F100878C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F019768722BCB2F100878C5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F019768E22BCB32B00878C5E /* Constance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constance.h; sourceTree = "<group>"; };
+		F0B477E922BDCE56007073C2 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		F0B477EA22BDCE56007073C2 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		F0B477EB22BDCE56007073C2 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		F0B477EC22BDCE56007073C2 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		F0B477EF22BDCE9F007073C2 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F0B477F122BDCF1D007073C2 /* UIView+ZZFLEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZFLEX.m"; sourceTree = "<group>"; };
+		F0B477F222BDCF1D007073C2 /* UIView+ZZFLEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZFLEX.h"; sourceTree = "<group>"; };
+		F0B477F422BDCF1D007073C2 /* ZZButtonChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZButtonChainModel.h; sourceTree = "<group>"; };
+		F0B477F522BDCF1D007073C2 /* ZZTextFieldChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTextFieldChainModel.m; sourceTree = "<group>"; };
+		F0B477F622BDCF1D007073C2 /* ZZLabelChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLabelChainModel.m; sourceTree = "<group>"; };
+		F0B477F722BDCF1D007073C2 /* ZZBaseViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewChainModel.h; sourceTree = "<group>"; };
+		F0B477F822BDCF1D007073C2 /* ZZCollectionViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCollectionViewChainModel.m; sourceTree = "<group>"; };
+		F0B477F922BDCF1D007073C2 /* ZZControlChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZControlChainModel.h; sourceTree = "<group>"; };
+		F0B477FA22BDCF1D007073C2 /* ZZImageViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZImageViewChainModel.h; sourceTree = "<group>"; };
+		F0B477FB22BDCF1D007073C2 /* ZZScrollViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZScrollViewChainModel.h; sourceTree = "<group>"; };
+		F0B477FC22BDCF1D007073C2 /* ZZTextViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTextViewChainModel.h; sourceTree = "<group>"; };
+		F0B477FD22BDCF1D007073C2 /* ZZTableViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTableViewChainModel.m; sourceTree = "<group>"; };
+		F0B477FE22BDCF1D007073C2 /* ZZSwitchChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSwitchChainModel.h; sourceTree = "<group>"; };
+		F0B477FF22BDCF1D007073C2 /* ZZViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZViewChainModel.h; sourceTree = "<group>"; };
+		F0B4780022BDCF1D007073C2 /* ZZCollectionViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCollectionViewChainModel.h; sourceTree = "<group>"; };
+		F0B4780122BDCF1D007073C2 /* ZZBaseViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewChainModel.m; sourceTree = "<group>"; };
+		F0B4780222BDCF1D007073C2 /* ZZTextFieldChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTextFieldChainModel.h; sourceTree = "<group>"; };
+		F0B4780322BDCF1D007073C2 /* ZZButtonChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZButtonChainModel.m; sourceTree = "<group>"; };
+		F0B4780422BDCF1D007073C2 /* ZZLabelChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLabelChainModel.h; sourceTree = "<group>"; };
+		F0B4780522BDCF1D007073C2 /* ZZScrollViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZScrollViewChainModel.m; sourceTree = "<group>"; };
+		F0B4780622BDCF1D007073C2 /* ZZImageViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZImageViewChainModel.m; sourceTree = "<group>"; };
+		F0B4780722BDCF1D007073C2 /* ZZControlChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZControlChainModel.m; sourceTree = "<group>"; };
+		F0B4780822BDCF1D007073C2 /* ZZTableViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTableViewChainModel.h; sourceTree = "<group>"; };
+		F0B4780922BDCF1D007073C2 /* ZZTextViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTextViewChainModel.m; sourceTree = "<group>"; };
+		F0B4780A22BDCF1D007073C2 /* ZZSwitchChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSwitchChainModel.m; sourceTree = "<group>"; };
+		F0B4780B22BDCF1D007073C2 /* ZZViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZViewChainModel.m; sourceTree = "<group>"; };
+		F0B4780C22BDCF1D007073C2 /* ZZFLEXMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFLEXMacros.h; sourceTree = "<group>"; };
+		F0B4780E22BDCF1D007073C2 /* UIView+ZZSeparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZSeparator.h"; sourceTree = "<group>"; };
+		F0B4780F22BDCF1D007073C2 /* UIButton+ZZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZZExtension.m"; sourceTree = "<group>"; };
+		F0B4781022BDCF1D007073C2 /* UIControl+ZZEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ZZEvent.h"; sourceTree = "<group>"; };
+		F0B4781122BDCF1D007073C2 /* UIView+ZZFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZFrame.m"; sourceTree = "<group>"; };
+		F0B4781222BDCF1D007073C2 /* UIButton+ZZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZZExtension.h"; sourceTree = "<group>"; };
+		F0B4781322BDCF1D007073C2 /* UIView+ZZSeparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZSeparator.m"; sourceTree = "<group>"; };
+		F0B4781422BDCF1D007073C2 /* UIView+ZZFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZFrame.h"; sourceTree = "<group>"; };
+		F0B4781522BDCF1D007073C2 /* UIControl+ZZEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ZZEvent.m"; sourceTree = "<group>"; };
+		F0B4781722BDCF1D007073C2 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		F0B4781822BDCF1D007073C2 /* UIView+BlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlockGesture.m"; sourceTree = "<group>"; };
+		F0B4781922BDCF1D007073C2 /* UIView+MaskRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MaskRounded.m"; sourceTree = "<group>"; };
+		F0B4781A22BDCF1D007073C2 /* UIView+ForbidEditMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ForbidEditMask.h"; sourceTree = "<group>"; };
+		F0B4781B22BDCF1D007073C2 /* UIView+ATExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ATExtension.h"; sourceTree = "<group>"; };
+		F0B4781C22BDCF1D007073C2 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		F0B4781D22BDCF1D007073C2 /* UIView+ForbidEditMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ForbidEditMask.m"; sourceTree = "<group>"; };
+		F0B4781E22BDCF1D007073C2 /* UIView+MaskRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MaskRounded.h"; sourceTree = "<group>"; };
+		F0B4781F22BDCF1D007073C2 /* UIView+BlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlockGesture.h"; sourceTree = "<group>"; };
+		F0B4782022BDCF1D007073C2 /* UIView+ATExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ATExtension.m"; sourceTree = "<group>"; };
+		F0B4783722BDCF78007073C2 /* YLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLUtils.h; sourceTree = "<group>"; };
+		F0B4783822BDCF78007073C2 /* YLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F019767222BCB2EE00878C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F39953418DA2BB1EB736C0 /* libPods-CalendarTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1135F6A10BFD1BF929FEF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD22C3C523581F392F32F0 /* Pods-CalendarTest.debug.xcconfig */,
+				7B9AA3A1B9F0A504F16230B0 /* Pods-CalendarTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF3BF48650A2889CF51572CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D9EC6566ACBC5326DA22FAA /* libPods-CalendarTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F019766C22BCB2EE00878C5E = {
+			isa = PBXGroup;
+			children = (
+				F019767722BCB2EE00878C5E /* CalendarTest */,
+				F019767622BCB2EE00878C5E /* Products */,
+				8F1135F6A10BFD1BF929FEF7 /* Pods */,
+				CF3BF48650A2889CF51572CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F019767622BCB2EE00878C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F019767522BCB2EE00878C5E /* CalendarTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F019767722BCB2EE00878C5E /* CalendarTest */ = {
+			isa = PBXGroup;
+			children = (
+				F0B4783722BDCF78007073C2 /* YLUtils.h */,
+				F0B4783822BDCF78007073C2 /* YLUtils.m */,
+				F0B4781622BDCF1D007073C2 /* UiView */,
+				F0B477F022BDCF1D007073C2 /* ZZFLEXViewExtension */,
+				F0B477E822BDCE47007073C2 /* DateUtil */,
+				F019767822BCB2EE00878C5E /* AppDelegate.h */,
+				F019767922BCB2EE00878C5E /* AppDelegate.m */,
+				F019767B22BCB2EE00878C5E /* ViewController.h */,
+				F019767C22BCB2EE00878C5E /* ViewController.m */,
+				F019767E22BCB2EE00878C5E /* Main.storyboard */,
+				F019768122BCB2F100878C5E /* Assets.xcassets */,
+				F019768322BCB2F100878C5E /* LaunchScreen.storyboard */,
+				F019768622BCB2F100878C5E /* Info.plist */,
+				F019768722BCB2F100878C5E /* main.m */,
+				F019768E22BCB32B00878C5E /* Constance.h */,
+				F0B477EF22BDCE9F007073C2 /* Header.h */,
+			);
+			path = CalendarTest;
+			sourceTree = "<group>";
+		};
+		F0B477E822BDCE47007073C2 /* DateUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F0B477EA22BDCE56007073C2 /* CalendarView.h */,
+				F0B477E922BDCE56007073C2 /* CalendarView.m */,
+				F0B477EB22BDCE56007073C2 /* DateUtil.h */,
+				F0B477EC22BDCE56007073C2 /* DateUtil.m */,
+			);
+			path = DateUtil;
+			sourceTree = "<group>";
+		};
+		F0B477F022BDCF1D007073C2 /* ZZFLEXViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F0B477F122BDCF1D007073C2 /* UIView+ZZFLEX.m */,
+				F0B477F222BDCF1D007073C2 /* UIView+ZZFLEX.h */,
+				F0B477F322BDCF1D007073C2 /* ViewsChainModels */,
+				F0B4780C22BDCF1D007073C2 /* ZZFLEXMacros.h */,
+				F0B4780D22BDCF1D007073C2 /* Base */,
+			);
+			path = ZZFLEXViewExtension;
+			sourceTree = "<group>";
+		};
+		F0B477F322BDCF1D007073C2 /* ViewsChainModels */ = {
+			isa = PBXGroup;
+			children = (
+				F0B477F422BDCF1D007073C2 /* ZZButtonChainModel.h */,
+				F0B477F522BDCF1D007073C2 /* ZZTextFieldChainModel.m */,
+				F0B477F622BDCF1D007073C2 /* ZZLabelChainModel.m */,
+				F0B477F722BDCF1D007073C2 /* ZZBaseViewChainModel.h */,
+				F0B477F822BDCF1D007073C2 /* ZZCollectionViewChainModel.m */,
+				F0B477F922BDCF1D007073C2 /* ZZControlChainModel.h */,
+				F0B477FA22BDCF1D007073C2 /* ZZImageViewChainModel.h */,
+				F0B477FB22BDCF1D007073C2 /* ZZScrollViewChainModel.h */,
+				F0B477FC22BDCF1D007073C2 /* ZZTextViewChainModel.h */,
+				F0B477FD22BDCF1D007073C2 /* ZZTableViewChainModel.m */,
+				F0B477FE22BDCF1D007073C2 /* ZZSwitchChainModel.h */,
+				F0B477FF22BDCF1D007073C2 /* ZZViewChainModel.h */,
+				F0B4780022BDCF1D007073C2 /* ZZCollectionViewChainModel.h */,
+				F0B4780122BDCF1D007073C2 /* ZZBaseViewChainModel.m */,
+				F0B4780222BDCF1D007073C2 /* ZZTextFieldChainModel.h */,
+				F0B4780322BDCF1D007073C2 /* ZZButtonChainModel.m */,
+				F0B4780422BDCF1D007073C2 /* ZZLabelChainModel.h */,
+				F0B4780522BDCF1D007073C2 /* ZZScrollViewChainModel.m */,
+				F0B4780622BDCF1D007073C2 /* ZZImageViewChainModel.m */,
+				F0B4780722BDCF1D007073C2 /* ZZControlChainModel.m */,
+				F0B4780822BDCF1D007073C2 /* ZZTableViewChainModel.h */,
+				F0B4780922BDCF1D007073C2 /* ZZTextViewChainModel.m */,
+				F0B4780A22BDCF1D007073C2 /* ZZSwitchChainModel.m */,
+				F0B4780B22BDCF1D007073C2 /* ZZViewChainModel.m */,
+			);
+			path = ViewsChainModels;
+			sourceTree = "<group>";
+		};
+		F0B4780D22BDCF1D007073C2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F0B4780E22BDCF1D007073C2 /* UIView+ZZSeparator.h */,
+				F0B4780F22BDCF1D007073C2 /* UIButton+ZZExtension.m */,
+				F0B4781022BDCF1D007073C2 /* UIControl+ZZEvent.h */,
+				F0B4781122BDCF1D007073C2 /* UIView+ZZFrame.m */,
+				F0B4781222BDCF1D007073C2 /* UIButton+ZZExtension.h */,
+				F0B4781322BDCF1D007073C2 /* UIView+ZZSeparator.m */,
+				F0B4781422BDCF1D007073C2 /* UIView+ZZFrame.h */,
+				F0B4781522BDCF1D007073C2 /* UIControl+ZZEvent.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F0B4781622BDCF1D007073C2 /* UiView */ = {
+			isa = PBXGroup;
+			children = (
+				F0B4781722BDCF1D007073C2 /* UIView+ViewController.m */,
+				F0B4781822BDCF1D007073C2 /* UIView+BlockGesture.m */,
+				F0B4781922BDCF1D007073C2 /* UIView+MaskRounded.m */,
+				F0B4781A22BDCF1D007073C2 /* UIView+ForbidEditMask.h */,
+				F0B4781B22BDCF1D007073C2 /* UIView+ATExtension.h */,
+				F0B4781C22BDCF1D007073C2 /* UIView+ViewController.h */,
+				F0B4781D22BDCF1D007073C2 /* UIView+ForbidEditMask.m */,
+				F0B4781E22BDCF1D007073C2 /* UIView+MaskRounded.h */,
+				F0B4781F22BDCF1D007073C2 /* UIView+BlockGesture.h */,
+				F0B4782022BDCF1D007073C2 /* UIView+ATExtension.m */,
+			);
+			path = UiView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F019767422BCB2EE00878C5E /* CalendarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F019768B22BCB2F100878C5E /* Build configuration list for PBXNativeTarget "CalendarTest" */;
+			buildPhases = (
+				E7BC95CD6677CA0BF6A4D0DC /* [CP] Check Pods Manifest.lock */,
+				F019767122BCB2EE00878C5E /* Sources */,
+				F019767222BCB2EE00878C5E /* Frameworks */,
+				F019767322BCB2EE00878C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarTest;
+			productName = CalendarTest;
+			productReference = F019767522BCB2EE00878C5E /* CalendarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F019766D22BCB2EE00878C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "张强";
+				TargetAttributes = {
+					F019767422BCB2EE00878C5E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F019767022BCB2EE00878C5E /* Build configuration list for PBXProject "CalendarTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F019766C22BCB2EE00878C5E;
+			productRefGroup = F019767622BCB2EE00878C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F019767422BCB2EE00878C5E /* CalendarTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F019767322BCB2EE00878C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F019768522BCB2F100878C5E /* LaunchScreen.storyboard in Resources */,
+				F019768222BCB2F100878C5E /* Assets.xcassets in Resources */,
+				F019768022BCB2EE00878C5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E7BC95CD6677CA0BF6A4D0DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalendarTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F019767122BCB2EE00878C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B4782422BDCF1D007073C2 /* ZZCollectionViewChainModel.m in Sources */,
+				F0B4782822BDCF1D007073C2 /* ZZScrollViewChainModel.m in Sources */,
+				F0B4783922BDCF78007073C2 /* YLUtils.m in Sources */,
+				F0B4782622BDCF1D007073C2 /* ZZBaseViewChainModel.m in Sources */,
+				F0B4782E22BDCF1D007073C2 /* UIButton+ZZExtension.m in Sources */,
+				F019767D22BCB2EE00878C5E /* ViewController.m in Sources */,
+				F0B4782122BDCF1D007073C2 /* UIView+ZZFLEX.m in Sources */,
+				F0B4783322BDCF1D007073C2 /* UIView+BlockGesture.m in Sources */,
+				F0B4783622BDCF1D007073C2 /* UIView+ATExtension.m in Sources */,
+				F0B4782C22BDCF1D007073C2 /* ZZSwitchChainModel.m in Sources */,
+				F0B477EE22BDCE56007073C2 /* DateUtil.m in Sources */,
+				F0B4782922BDCF1D007073C2 /* ZZImageViewChainModel.m in Sources */,
+				F019768822BCB2F100878C5E /* main.m in Sources */,
+				F0B4783022BDCF1D007073C2 /* UIView+ZZSeparator.m in Sources */,
+				F0B4782F22BDCF1D007073C2 /* UIView+ZZFrame.m in Sources */,
+				F0B4782222BDCF1D007073C2 /* ZZTextFieldChainModel.m in Sources */,
+				F0B4782B22BDCF1D007073C2 /* ZZTextViewChainModel.m in Sources */,
+				F0B4783422BDCF1D007073C2 /* UIView+MaskRounded.m in Sources */,
+				F0B4783522BDCF1D007073C2 /* UIView+ForbidEditMask.m in Sources */,
+				F0B4783122BDCF1D007073C2 /* UIControl+ZZEvent.m in Sources */,
+				F0B4782722BDCF1D007073C2 /* ZZButtonChainModel.m in Sources */,
+				F0B477ED22BDCE56007073C2 /* CalendarView.m in Sources */,
+				F0B4782A22BDCF1D007073C2 /* ZZControlChainModel.m in Sources */,
+				F0B4782D22BDCF1D007073C2 /* ZZViewChainModel.m in Sources */,
+				F0B4783222BDCF1D007073C2 /* UIView+ViewController.m in Sources */,
+				F0B4782522BDCF1D007073C2 /* ZZTableViewChainModel.m in Sources */,
+				F0B4782322BDCF1D007073C2 /* ZZLabelChainModel.m in Sources */,
+				F019767A22BCB2EE00878C5E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F019767E22BCB2EE00878C5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F019767F22BCB2EE00878C5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F019768322BCB2F100878C5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F019768422BCB2F100878C5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F019768922BCB2F100878C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F019768A22BCB2F100878C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F019768C22BCB2F100878C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BD22C3C523581F392F32F0 /* Pods-CalendarTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X92PN94H4;
+				GCC_PREFIX_HEADER = /Users/zhangqiang/Desktop/CalendarTest/CalendarTest/Header.h;
+				INFOPLIST_FILE = CalendarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erong.CalendarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F019768D22BCB2F100878C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9AA3A1B9F0A504F16230B0 /* Pods-CalendarTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X92PN94H4;
+				GCC_PREFIX_HEADER = /Users/zhangqiang/Desktop/CalendarTest/CalendarTest/Header.h;
+				INFOPLIST_FILE = CalendarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erong.CalendarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F019767022BCB2EE00878C5E /* Build configuration list for PBXProject "CalendarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F019768922BCB2F100878C5E /* Debug */,
+				F019768A22BCB2F100878C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F019768B22BCB2F100878C5E /* Build configuration list for PBXNativeTarget "CalendarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F019768C22BCB2F100878C5E /* Debug */,
+				F019768D22BCB2F100878C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F019766D22BCB2EE00878C5E /* Project object */;
+}
